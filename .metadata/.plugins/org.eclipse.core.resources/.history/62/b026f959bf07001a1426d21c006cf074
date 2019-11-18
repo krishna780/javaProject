@@ -1,0 +1,15 @@
+package multiThreading;
+
+public class run_method extends Thread {
+   // call the run() method using the run() method itself
+	public void run() {
+		System.out.println("running the thread");
+	}
+	public static void main(String[] args) {
+		run_method t1 = new run_method();
+		// calling run() method more than one time
+		run_method t2 = new run_method();
+		t2.run();
+		t1.run();
+	}
+}
