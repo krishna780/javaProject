@@ -1,0 +1,29 @@
+package multiThreading;
+
+class myThread implements Runnable{
+	private boolean exit;
+	private String name;
+	Thread t;
+	myThread(String threadname){
+		name= threadname;
+		t=new Thread (this,name);
+		System.out.println("New thread:"+t);
+		exit=false;
+		t.start();
+	}
+	public void run() {
+		int i=0;
+		while(!exit) {
+			System.out.println(name+":"+i);
+			i++;
+			try {
+				
+			} catch (Int e) {
+				// TODO: handle exception
+			}
+		}
+	}
+}
+public class threadStop {
+
+}

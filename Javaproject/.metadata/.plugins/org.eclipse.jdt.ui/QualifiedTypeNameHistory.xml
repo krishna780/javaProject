@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="multiThreading.SuspendResumeThread"/>
+<fullyQualifiedTypeName name="multiThreading.NewThread"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+</qualifiedTypeNameHistroy>
