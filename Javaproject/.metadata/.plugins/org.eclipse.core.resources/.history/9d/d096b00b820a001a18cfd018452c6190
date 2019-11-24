@@ -1,0 +1,5 @@
+package inherantance;
+
+public abstract class BoxWeight {
+
+}
