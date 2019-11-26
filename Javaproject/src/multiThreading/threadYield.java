@@ -1,4 +1,4 @@
-package multiThreading;
+ package multiThreading;
 
 public class threadYield implements Runnable{
            Thread t;
